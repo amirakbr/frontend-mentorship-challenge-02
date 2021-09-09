@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style02.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rosario:wght@300&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+          <section id="section">
+              <form id="form" action="" class="disply-flx column-direction">
+                    <div class="disply-flx column-direction">
+                        <label for="FullName" title="Type Your FullName">
+                            FullName
+                        </label>
+                        <input type="text" id="FullName" title="FullName Input" placeholder="Your Name">
+                        <label for="EmailAddress" title="Type Your EmailAddress">
+                            Email Address
+                        </label>
+                        <input type="text" id="EmailAddress" title="EmailAddress Input" placeholder="Email Address">
+                    </div>
+                    
+                    <div class="disply-flx column-direction">
+                        <label for="DatePicker" title="Choose Your Birth Date">
+                            Date of Birth
+                        </label>
+                        <input type="date" id="DatePicker" title="Birthday Date Picker"> 
+                    </div>
+                    
+                    <div class="disply-flx column-direction">   
+                        <label for="" title="Choose Your Gender">
+                            Gender
+                        </label>
+                        <section class="disply-flx row-direction">
+                            
+                            <label for="Male-radio" class="male-radio" title="Male Gender">
+                                <input type="radio" name="Gender" value="Male" id="Male-radio" >
+                                Male
+                            </label>
+                            
+                            <label for="Female-radio" class="female-radio" title="Female Gender">
+                                <input type="radio" name="Gender" value="Female" id="Female-radio" >
+                                Female
+                            </label>
+                        </section>
+                    </div>
+                    <div class="disply-flx row-direction">
+                        <input type="checkbox" id="Terms&Conditions" name="Terms&Conditions" required>
+                        <label for="Terms&Conditions" >
+                            I accept the <a href="#" class="terms">terms</a> &amp <a href="#" class="terms">conditions</a>
+                        </label>
+                    </div>
+                    <div class="disply-flx column-direction">
+                        <input type="submit" value="Create Account">
+                        <a href="#" class="accountlinks">
+                                I Have Allready Have an Account
+                        </a>
+                        <a href="#" class="accountlinks">
+                                Forgot Your Password ?
+                        </a>
+                    </div><!---->
+                </form>
+            </section>
+    </body>
+</html>
